@@ -1,0 +1,34 @@
+.gradients {
+    height: 100vh;
+    background-color: red;
+
+    .wrapper {
+        .text {
+            padding: 20px;
+            margin-top: 6rem;
+            font-size: 5rem;
+            color: white;
+            opacity: 0;
+        }
+    }
+
+    .grad-collection {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: stretch;
+        .grad {
+            width: 100%;
+            height: 100%;
+            flex-grow: 1;
+            background-size: '400% 400%' !important;
+           
+           /*  &.grad1{
+                background-color: pink;
+            }
+            &.grad2{
+                background-color: blue;
+            } */
+        }
+    }
+}
